@@ -128,12 +128,9 @@ A sample json to include in a .json file
 ```
 {
     "partner": {
-        "name": "greenpanda",
-        "flow": "pandas",
-        "country": "gr",
-        "code": "pandas",
-        "storeLocationsURL": "https://google.com"
-        "id": "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad"
+        "name": "your partner name",
+        "storeLocationsURL": "url with your store locations",
+        "id": "your partner id"
     },
     "assessments": [
         "digitizer",
@@ -144,16 +141,9 @@ A sample json to include in a .json file
         "front-camera",
         "back-camera"
     ],
-    "payment_options": {
-        "parts": false,
-        "payment_methods": ["cash", "voucher"],
-        "promo": true
-    },
-    "at_store_flow": false,
     "colors": { "primary": "#1A1A1A" },
     "email_submission": true,
     "drop_off_options": ["AT_STORE", "COURIER_AT_STORE"],
-    "mirror": false,
     "tutorial": true,
     "impact": true,
     "manifesto": true,
